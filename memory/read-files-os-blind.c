@@ -1,3 +1,16 @@
+/**
+ * File: read-files-os-blind.c
+ * Author: Victor Kolis
+ * Date: 05/06/2024
+ * Description: Implements functions that take terminal arguments
+ *                          in order to list files in a given dir
+ *                          e.g.: (such as) ls in bash scripting
+ *                          ./read-files-os-blind ~, lists files in home.
+ *                          This code is an upgrade of read-files
+ *                          in terms of OS handling.
+ * License: The unlicensed
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
