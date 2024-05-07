@@ -42,7 +42,6 @@ int main() {
         }
 
         // Wait for a key press before clearing the screen
-        printf("Press enter to continue...\n");
         while (getchar() != '\n');
 
     } while (guess != answer);
