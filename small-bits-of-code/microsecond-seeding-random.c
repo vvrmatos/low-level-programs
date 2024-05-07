@@ -1,11 +1,13 @@
 /**
- * File: read-files.c
+ * File: microsecond-seeding-random.c
  * Author: Victor Kolis
  * Date: 05/06/2024
- * Description: Implements functions that take terminal arguments
- *                          in order to list files in a given dir
- *                          e.g.: (such as) ls in bash scripting
- *                          ./read-files ~, lists files in home
+ * Description: Implements time.h and sys/time.h that differs from the Unix-epoch
+ *                                      approach. And offers a better seeding
+ *                                      timing, differing from the previous one
+ *                                      not having to wait a certain time to use another
+ *                                      seed to get new pseudo-random random values.
+ * 
  * License: The unlicensed
 */
 

@@ -14,6 +14,7 @@
 #include <errno.h>
 #include <stdlib.h>
 
+
 void listFiles(const char *path) {
     struct dirent *entry;
     DIR *dir = opendir(path);
